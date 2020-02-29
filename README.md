@@ -1,2 +1,2 @@
-# asoft-sms-service
+# asoft-sms-gateway
 A Multiplatform Lib for sending sms api
