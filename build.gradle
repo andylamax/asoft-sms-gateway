@@ -25,7 +25,7 @@ plugins {
 }
 
 group 'tz.co.asoft'
-version '1.0.0'
+version '1.0.1'
 
 apply plugin: 'com.android.library'
 apply plugin: 'maven-publish'
@@ -88,7 +88,7 @@ kotlin {
             tasks[compileKotlinTaskName].kotlinOptions {
                 kotlinOptions.metaInfo = true
                 kotlinOptions.sourceMap = true
-                kotlinOptions.moduleKind = 'plain'
+                kotlinOptions.moduleKind = 'commonjs'
                 kotlinOptions.main = "call"
             }
         }
